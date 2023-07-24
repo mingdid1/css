@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex15</title>
+	<style type="text/css">
+		.div{
+			background: yellow; width: 300px;
+			/* border: 15px solid navy;*/
+			border-top: 15px solid navy;
+			border-bottom: 15px solid navy;
+			min-height: 200px;
+				 /* 4개 ↑ → ↓ ← 
+				   	2개  ↕   ↔	*/
+			padding: 10px 0 0 0;
+			margin: 50px 0 0 50px;
+		}
+		.c1 { background: aqua; width: 300px; }
+		p.c2 { background: gray; width: 30%; }
+	</style>
+</head>
+<body>
+	<div class="div">
+		CSS3 박스 모델은 content, padding, border, margin
+		으로 구성되어있다
+	</div>
+	<p class="c1">내용 px</p>
+	<p class="c2">내용 %</p>
+	 %는 가변적인 크기이다
+	<div class="c2">내용 %</div>
+</body>
+</html>

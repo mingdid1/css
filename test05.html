@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>quiz05</title>
+	<style type="text/css">
+		
+		.wrap { width: 1000px;  text-align: center; margin: auto;}
+		.board {  border: 3px solid black; }
+		.header { height: 100px; background-color: red; }
+		.section { display: flex; height: 300px;}
+		.nav { background-color: yellow; width:20%; }
+		.in_section { background-color: green; width: 60%; }
+		.aside { background-color: yellow; width:20%; }
+		footer{ height: 100px; background-color: pink;}
+		
+		.in_side { width: 80%; margin: auto;}
+		.in_board { border: 3px solid black; margin: 10px; height: 40px; line-height:35px;}
+		.in_header { background-color: aqua; }
+		.in_article { background-color: yellow; }
+		.in_footer { background-color: pink;}
+		
+	</style>
+
+</head>
+<body>
+	<div class="wrap">
+		<header class="header board">
+			<h1>&lt;header&gt;</h1>
+		</header>
+		
+		<section class="section board">
+			<nav class="nav board"> <h2>nav</h2> </nav>
+			
+			<section class="in_section board"> <h2>section1</h2> 
+				<div class="in_side">
+					<header class="in_header in_board">header</header>
+					<article class="in_article in_board">article</article>
+					<footer class="in_footer in_board">footer</footer>
+				</div>
+			</section>
+			
+			<section class="aside board"> <h2>aside</h2> </section>
+		</section>
+		
+		<footer class="board">
+			<h2 style="margin: 0;"> &lt;footer&gt; </h2>
+		</footer>
+	</div>
+</body>
+</html>
